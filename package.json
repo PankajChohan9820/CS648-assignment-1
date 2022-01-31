@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+  },
+  "name": "assignment-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "devStart":"nodemon server/server.js",
+    "watch": "babel src --presets @babel/preset-react --out-dir public --watch --verbose",    
+    "compile": "babel src --presets @babel/preset-react --out-dir public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(211, 102, 51);
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+}
+
+
+.image_css{
+    height: 300px;
+    width: 300px;
+    border-radius: 3%;
+    border-color: black;
+}
+
+.content-root{
+    max-width: 600px;
+}
+
+#center_content{
+    align-items: center;
+}
+
+h4, p, button{
+    text-align: center;
+}
+
+.btn {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+  }
+
+.default:hover {
+background: #e7e7e7;
+}
+
+.success:hover {
+background-color: #087cc9;
+color: white;
+}
