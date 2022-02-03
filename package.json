@@ -8,6 +8,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "start": "npm run compile && npm run devStart",
     "devStart":"nodemon server/server.js",
     "watch": "babel src --presets @babel/preset-react --out-dir public --watch --verbose",    
     "compile": "babel src --presets @babel/preset-react --out-dir public"
